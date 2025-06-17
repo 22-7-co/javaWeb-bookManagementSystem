@@ -4,8 +4,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author 陌意随影
- * @create 2020-01-31 17:03
+ * @author .Yur
+ * @create 2025-06-15 17:03
  * @desc 账户的实体类
  **/
 public class Account implements Serializable {

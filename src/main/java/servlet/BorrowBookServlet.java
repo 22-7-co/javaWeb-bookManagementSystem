@@ -23,8 +23,6 @@ import java.util.Map;
 
 /**
  * @TODO:图书借阅的servlet
- * @author: 陌意随影
- * @date: 2020-02-09 19:02
  */
 @WebServlet("/borrowBookServlet")
 public class BorrowBookServlet extends HttpServlet {

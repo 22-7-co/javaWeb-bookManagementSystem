@@ -14,9 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 /**
- * @TODO:用户信息展示的servlet
- * @author: 陌意随影
- * @date: 2020-02-05 16:45
+ * 用户信息展示的servlet
  */
 @WebServlet("/accountListServlet")
 public class AccountListServlet extends HttpServlet {
@@ -76,7 +74,6 @@ public class AccountListServlet extends HttpServlet {
     }
     /**
      * @Description :将pageBean手动转化为json字符串
-     * @Date 20:08 2020/10/30 0030
      * @Param * @param pageBean ：需要转换的pageBean
      * @return java.lang.String
      **/

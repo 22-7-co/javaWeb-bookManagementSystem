@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 陌意随影
-  Date: 2020/1/31 0031
-  Time: 22:47
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
@@ -104,13 +97,15 @@
                 <tr>
                     <td>
                         <div class="form-group" >
-                            <button type="submit" class="btn btn-primary" style="width: 80px;margin-left: 2px;">登录</button>
-                            <%
-                                request.removeAttribute("checkcode");
-                                System.out.println(request.getParameter("checkcode"));
-                                request.removeAttribute("name");
-                                request.removeAttribute("password");
-                            %>
+                        <button type="submit" class="btn btn-primary" style="width: 80px;margin-left: 2px;">登录</button>
+                        <%
+                            request.removeAttribute("checkcode");
+                            String checkcode = request.getParameter("checkcode");
+                            // 使用 out.println() 将信息输出到页面，便于调试
+                            out.println("Checkcode: " + checkcode);
+                            request.removeAttribute("name");
+                            request.removeAttribute("password");
+                        %>
                             <a id="toRegister" style="margin-left: 125px;" href="${pageContext.request.contextPath}/accountregister.jsp">立即注册</a>
                         </div>
                     </td>

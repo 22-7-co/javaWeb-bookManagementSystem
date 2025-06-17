@@ -3,8 +3,8 @@ package domain;
 import java.util.List;
 
 /**
- * @author 陌意随影
- * @create 2020-02-02 12:23
+ * @author .Yur
+ * @create 2025-06-15 12:23
  * @desc  封装了分页查询的条件以及查询的结果
  **/
 public class PageBean<T> {

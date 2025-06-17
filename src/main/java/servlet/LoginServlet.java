@@ -13,8 +13,6 @@ import java.io.IOException;
 
 /**
  * @TODO:登录验证的servlet
- * @author: 陌意随影
- * @date: 2020-02-01 13:38
  */
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {

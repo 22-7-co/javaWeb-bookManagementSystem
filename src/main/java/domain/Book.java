@@ -3,8 +3,8 @@ package domain;
 import java.util.Date;
 
 /**
- * @author 陌意随影
- * @create 2020-01-31 17:34
+ * @author .Yur
+ * @create 2025-06-15 17:34
  * @desc 书籍类
  **/
 public class Book {

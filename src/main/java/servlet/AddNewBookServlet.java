@@ -17,8 +17,6 @@ import java.util.Map;
 
 /**
  * @TODO:
- * @author: 陌意随影
- * @date: 2020-02-10 13:29
  */
 @WebServlet("/addNewBookServlet")
 public class AddNewBookServlet extends HttpServlet {

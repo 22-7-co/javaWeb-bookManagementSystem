@@ -3,8 +3,8 @@ package domain;
 import java.util.Date;
 
 /**
- * @author 陌意随影
- * @create 2020-02-09 19:56
+ * @author .Yur
+ * @create 2025-06-15 19:56
  * @desc 借书情况的实体类
  **/
 public class BorrowBook {

@@ -14,8 +14,6 @@ import java.util.Date;
 
 /**
  * @TODO:用户注册的servlet
- * @author: 陌意随影
- * @date: 2020-02-05 12:35
  */
 @WebServlet("/accountRegisterServlet")
 public class AccountRegisterServlet extends HttpServlet {

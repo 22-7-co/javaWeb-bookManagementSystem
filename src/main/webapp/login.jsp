@@ -104,13 +104,15 @@
                 <tr>
                     <td>
                         <div class="form-group" >
-                            <button type="submit" class="btn btn-primary" style="width: 80px;margin-left: 2px;">登录</button>
-                            <%
-                                request.removeAttribute("checkcode");
-                                System.out.println(request.getParameter("checkcode"));
-                                request.removeAttribute("name");
-                                request.removeAttribute("password");
-                            %>
+                        <button type="submit" class="btn btn-primary" style="width: 80px;margin-left: 2px;">登录</button>
+                        <%
+                            request.removeAttribute("checkcode");
+                            String checkcode = request.getParameter("checkcode");
+                            // 使用 out.println() 将信息输出到页面，便于调试
+                            out.println("Checkcode: " + checkcode);
+                            request.removeAttribute("name");
+                            request.removeAttribute("password");
+                        %>
                             <a id="toRegister" style="margin-left: 125px;" href="${pageContext.request.contextPath}/accountregister.jsp">立即注册</a>
                         </div>
                     </td>

@@ -15,8 +15,6 @@ import java.util.List;
 import java.util.Map;
 /**
  * @TODO:通过查询条件获取相应账户的servlet
- * @author: 陌意随影
- * @date: 2020-02-01 22:45
  */
 @WebServlet("/bookListServlet")
 public class BookListServlet extends HttpServlet {

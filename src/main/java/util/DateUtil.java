@@ -5,8 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author 陌意随影
- * @create 2020-01-31 22:09
  * @desc 日期工具
  **/
 public class DateUtil {

@@ -10,7 +10,6 @@ import java.util.Properties;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 17:41
  * @desc msql数据库连接的工具类
  **/
 public class JdbcUtil {
@@ -27,7 +26,6 @@ public class JdbcUtil {
   }
   /**
    * @Description : 获取druid数据库连接池的DataSource对象
-   * @Date 20:04 2020/10/30 0030
    * @Param * @param  ：
    * @return javax.sql.DataSource
    **/
@@ -41,7 +39,6 @@ public class JdbcUtil {
   }
   /**
    * @Description :获取druid数据库连接池的Connection
-   * @Date 20:17 2020/10/30 0030
    * @Param * @param  ：
    * @return java.sql.Connection
    **/
@@ -56,7 +53,6 @@ public static  Connection getConnection(){
 }
 /**
  * @Description :关闭资源
- * @Date 20:04 2020/10/30 0030
  * @Param * @param connection  数据库连接对象
  * @param statement  预处理对象
  * @param resultSet ：结果集
@@ -87,7 +83,6 @@ public  static void close(Connection connection, Statement statement, ResultSet 
 }
 /**
  * @Description :执行sql的更新语句。
- * @Date 20:01 2020/10/30 0030
  * @Param * @param sql 需要执行的sql语句
  * @param params ：sql预处理占位符中的实际参数数组
  * @return int 返回受影响的行数
@@ -136,7 +131,6 @@ public  static int upDate(String sql,Object... params){
 }
 /**
  * @Description :返回sql查询后的结果
- * @Date 19:55 2020/10/30 0030
  * @Param * @param sql  需要执行的sql语句，包含有占位符
  * @param resultSetHandler  结果集的处理
  * @param params ： 占位符对应的值
@@ -187,7 +181,6 @@ public static <T> T query(String sql, ResultSetHandler<T> resultSetHandler, Obje
 }
 /**
  * @Description :通过所给的数据库表名来获取对应的表中所有的列名
- * @Date 17:10 2020/2/5 0005
  * @Param * @param tablename ：数据库表的表名
  * @return java.lang.String[]
  **/

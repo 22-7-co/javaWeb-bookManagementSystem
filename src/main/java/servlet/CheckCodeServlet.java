@@ -12,8 +12,6 @@ import java.util.Random;
 
 /**
  * @TODO:验证码的servlet
- * @author: 陌意随影
- * @date: 2020-02-01 12:14
  */
 @WebServlet("/checkCodeServlet")
 public class CheckCodeServlet extends HttpServlet {

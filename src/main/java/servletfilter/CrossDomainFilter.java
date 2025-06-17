@@ -9,9 +9,6 @@ import java.io.IOException;
  * Classname:CrossDomainFilter
  *
  * @description:
- * @author: 陌意随影
- * @Date: 2020-10-27 13:24
- * @Version: 1.0
  **/
 @WebFilter(filterName = "CrossDomainFilter",urlPatterns = "/*")
 public class CrossDomainFilter implements Filter {

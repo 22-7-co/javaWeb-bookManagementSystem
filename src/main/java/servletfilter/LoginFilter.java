@@ -16,8 +16,6 @@ import static com.sun.mail.imap.SortTerm.CC;
 
 /**
  * @TODO:登录过滤器
- * @author: 陌意随影
- * @date: 2020-02-09 18:58
  */
 @WebFilter(
         filterName = "LoginFilter",

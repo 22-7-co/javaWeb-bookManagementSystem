@@ -18,8 +18,6 @@ import java.util.Map;
 
 /**
  * @TODO:
- * @author: 陌意随影
- * @date: 2020-02-09 13:11
  */
 @WebServlet("/updateAccountServlet")
 public class UpdateAccountServlet extends HttpServlet {

@@ -14,8 +14,6 @@ import java.util.Map;
 
 /**
  * @TODO:删除图书的servlet
- * @author: 陌意随影
- * @date: 2020-02-05 21:41
  */
 @WebServlet("/removeBookServlet")
 public class RemoveBookServlet extends HttpServlet {
